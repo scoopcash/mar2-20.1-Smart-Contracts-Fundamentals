@@ -29,3 +29,19 @@ Instructions
 3. Compile your smart contract. If an error occurs, review your code, and make the necessary changes for a successful compilation.
 
 */
+
+```Solidity
+    pragma solidity ^0.5.0;
+
+    contract CustomerAccount {
+    
+        address owner = 0xb00c905Bff63C245C12DEf03F56fFb49cF2F9cA7;
+        bool isNewAccount = true;
+        int accountBalance = 10000;
+        string customerName = 'michael'
+        string customerlastName  = 'jordan'
+
+
+
+    }
+    ```
